@@ -15,7 +15,7 @@ resource "aws_s3_bucket" "test" {
 
   tags = {
     Name        = "MyBucket_aditya_sai_123456"
-    Environment = "Dev"
+    Environment = "QA"
   }
 }
 
