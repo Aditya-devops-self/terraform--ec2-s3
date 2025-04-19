@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Clone Repo') {
       steps {
-        
+        sh 'terraform init'
       }
     }
 
