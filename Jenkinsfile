@@ -8,7 +8,11 @@ pipeline {
   }
 
   stages {
-    
+    stage('Clone Repo') {
+      steps {
+        
+      }
+    }
 
     stage('Terraform Init') {
       steps {
