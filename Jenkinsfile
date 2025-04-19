@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Clone Repo') {
       steps {
-        git url: 'https://github.com/your-username/your-repo.git', credentialsId: 'Aditya-devops-self'
+        git url: 'https://github.com/Aditya-devops-self/terraform--ec2-s3.git', credentialsId: 'Aditya-devops-self'
       }
     }
 
